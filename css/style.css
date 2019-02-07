@@ -1,0 +1,36 @@
+nav{
+    background-color: midnightblue;
+    height: 50px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content:space-between;
+    width: 95%;
+}
+li{
+    list-style: flex;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.block{
+    height: 300px;
+}
+
+.block:nth-child(odd){
+    background-color: white;
+}
+
+.block:nth-child(even){
+    background-color: black;
+}
