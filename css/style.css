@@ -28,9 +28,15 @@ a{
 }
 
 .block:nth-child(odd){
-    background-color: white;
+    background-color:midnightblue;
 }
 
 .block:nth-child(even){
-    background-color: black;
+    background-color: fuchsia;
+}
+#scrollToTop{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
 }
