@@ -5,4 +5,7 @@ $(window).on("scroll",function(){
     if(positionY > 1213){
         $("#scrollToTop").css("opacity" , 1)
     }
+    else if(positionY < 100){
+        $("#menu").css("opacity" , 1)
+    }
 })

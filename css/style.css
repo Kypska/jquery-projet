@@ -40,3 +40,8 @@ a{
     justify-content: center;
     opacity: 0;
 }
+#menu{
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
